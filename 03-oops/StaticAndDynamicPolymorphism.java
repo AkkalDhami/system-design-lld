@@ -137,6 +137,7 @@ class ElectricCar extends Car {
   }
 }
 
+
 // Main function
 public class StaticAndDynamicPolymorphism {
   public static void main(String[] args) {
@@ -155,5 +156,7 @@ public class StaticAndDynamicPolymorphism {
     myElectricCar.accelerate();
     myElectricCar.brake();
     myElectricCar.stopEngine();
+
+    System.out.println("----------------------");
   }
 }

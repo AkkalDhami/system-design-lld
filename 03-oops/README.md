@@ -137,13 +137,6 @@ The final car code uses everything covered so far:
 
 ---
 
-## 6. Homework
-
-1. **Define operator overloading.**
-2. **Why is it not supported in Java/Python?**
-
-### Hint (my addition, not from the notes)
-
 - **Operator overloading** means giving an operator like `+` or `==` a custom meaning for your own classes. For example, `car1 + car2` or `point1 + point2` can be made to do something sensible.
 - **Correction:** the notes say Python doesn't support it, but **Python does** (through special methods like `__add__` and `__eq__`). **Java** is the one that doesn't allow it, as a deliberate choice to keep code simple and predictable. Worth double-checking this with your instructor.
 
@@ -155,4 +148,3 @@ The final car code uses everything covered so far:
 2. A parent's `private` members are never inherited. Use `protected` to share with children.
 3. **Overloading** = same name, different parameters, decided at compile time.
 4. **Overriding** = same signature redefined in a child class, decided at runtime, uses `virtual`.
-5. **Practice:** add new features to the car classes (for example, a `HybridCar`).
